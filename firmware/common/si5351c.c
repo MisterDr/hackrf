@@ -63,12 +63,15 @@ uint8_t si5351c_read_single(uint8_t reg)
 void si5351c_write(uint8_t* const data, const uint_fast8_t data_count)
 {
 	uint_fast8_t i;
+	int counter = 0;
 
 	i2c0_tx_start();
 	i2c0_tx_byte(SI5351C_I2C_ADDR | I2C_WRITE);
 	
-	for (i = 0; i < data_count; i++)
+	for (i = 0; i < data_count; i++) {
 		i2c0_tx_byte(data[i]);
+	}
+
 	i2c0_stop();
 }
 
@@ -78,6 +81,16 @@ void si5351c_disable_all_outputs()
 	uint8_t data[] = { 3, 0xFF };
 	si5351c_write(data, sizeof(data));
 }
+
+
+/* Set interrupt mask registers. */
+void si5351c_set_interrupt_mask()
+{
+	uint8_t data[] = { 2, 0xF0 };
+	si5351c_write(data, sizeof(data));
+}
+
+
 
 /* Turn off OEB pin control for all CLKx */
 void si5351c_disable_oeb_pin_control()
@@ -131,22 +144,139 @@ void si5351c_enable_xo_and_ms_fanout()
  */
 void si5351c_configure_pll_sources(void)
 {
+	//uint8_t data[] = { 15, 0x08 };//MOD
 	uint8_t data[] = { 15, 0x08 };
 
-	si5351c_write(data, sizeof(data));
+	si5351c_write(data, sizeof(data)); //MOD
 }
 
 /* MultiSynth NA (PLLA) and NB (PLLB) */
 void si5351c_configure_pll_multisynth(void)
 {
+
+	sblink2(300000);
+
+
+
+
+	// Stupid
+	uint8_t p_data[] = { 26, 0x00 };
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 27;
+	p_data[1] = 0x01;
+	si5351c_write(p_data, sizeof(p_data));
+
+
+	p_data[0] = 28;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 29;
+	p_data[1] = 0x0E;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 30;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 31;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 32;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 33;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+
+	// CLKIN
+
+	p_data[0] = 34;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 35;
+	p_data[1] = 0x01;
+	si5351c_write(p_data, sizeof(p_data));
+
+
+	p_data[0] = 36;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 37;
+	p_data[1] = 0x26;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 38;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 39;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 40;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	p_data[0] = 41;
+	p_data[1] = 0x00;
+	si5351c_write(p_data, sizeof(p_data));
+
+	// End of Stupid
+
+	//uint8_t data3[] = { 34, 0x00, 0x01, 0x00, 0x26 };
+	//si5351c_write(data, sizeof(data));
+
+
+
+
+
 	//init plla to (0x0e00+512)/128*25mhz xtal = 800mhz -> int mode
-	uint8_t data[] = { 26, 0x00, 0x01, 0x00, 0x0E, 0x00, 0x00, 0x00, 0x00 };
-	si5351c_write(data, sizeof(data));
+	//uint8_t data[] = { 26, 0x00, 0x01, 0x00, 0x0E, 0x00, 0x00, 0x00, 0x00 };
+
+	//uint8_t data[] = { 26, 0x00, 0x00, 0x00, 0x0E, 0x00, 0x00, 0x00, 0x00 };
+
+
+	//sblink2(300000);
+
+	//data[0] = 26;
+	//data[2] = 0x01;
+	//data[4] = 0x0E;
+
+
+	//si5351c_write(data, sizeof(data));
+
+
+	//si5351c_set_interrupt_mask();
+
+	//sblink2(300000);
+
+
+	//si5351c_write(data, sizeof(data));
+
+	//sblink(300000);
+
+
+	//blink(7777777);
+
 
 	/* 10 MHz input on CLKIN for PLLB */
-	data[0] = 34;
-	data[4] = 0x26;
-	si5351c_write(data, sizeof(data));
+	//data[0] = 34;
+	//data[4] = 0x26;
+	//si5351c_write(data, sizeof(data));
+	//si5351c_disable_oeb_pin_control();
+
+
+
+
+	//blink(7777777);
+
 }
 
 void si5351c_reset_pll(void)
@@ -242,6 +372,7 @@ void si5351c_configure_clock_control()
 #if (defined JAWBREAKER || defined HACKRF_ONE)
 void si5351c_configure_clock_control(const enum pll_sources source)
 {
+
 	uint8_t pll;
 
 	if (source == PLL_SOURCE_CLKIN) {
@@ -257,18 +388,23 @@ void si5351c_configure_clock_control(const enum pll_sources source)
 	,SI5351C_CLK_INT_MODE | SI5351C_CLK_PLL_SRC(pll) | SI5351C_CLK_SRC(SI5351C_CLK_SRC_MULTISYNTH_0_4) | SI5351C_CLK_IDRV(SI5351C_CLK_IDRV_2MA)
 	,SI5351C_CLK_INT_MODE | SI5351C_CLK_PLL_SRC(pll) | SI5351C_CLK_SRC(SI5351C_CLK_SRC_MULTISYNTH_SELF) | SI5351C_CLK_IDRV(SI5351C_CLK_IDRV_8MA)
 	,SI5351C_CLK_INT_MODE | SI5351C_CLK_PLL_SRC(pll) | SI5351C_CLK_SRC(SI5351C_CLK_SRC_MULTISYNTH_SELF) | SI5351C_CLK_IDRV(SI5351C_CLK_IDRV_6MA)
-	,SI5351C_CLK_INT_MODE | SI5351C_CLK_PLL_SRC(pll) | SI5351C_CLK_SRC(SI5351C_CLK_SRC_MULTISYNTH_SELF) | SI5351C_CLK_IDRV(SI5351C_CLK_IDRV_4MA)
+	//,SI5351C_CLK_INT_MODE | SI5351C_CLK_PLL_SRC(pll) | SI5351C_CLK_SRC(SI5351C_CLK_SRC_MULTISYNTH_SELF) | SI5351C_CLK_IDRV(SI5351C_CLK_IDRV_4MA)
+	,SI5351C_CLK_POWERDOWN | SI5351C_CLK_INT_MODE /* not connected, but: plla int mode 2837 */
+
 	,SI5351C_CLK_POWERDOWN | SI5351C_CLK_INT_MODE /*not connected, but: plla int mode*/
 	,SI5351C_CLK_INT_MODE | SI5351C_CLK_PLL_SRC(pll) | SI5351C_CLK_SRC(SI5351C_CLK_SRC_MULTISYNTH_SELF) | SI5351C_CLK_IDRV(SI5351C_CLK_IDRV_8MA)
 	 };
 	si5351c_write(data, sizeof(data));
+
 }
 #endif
 
 /* Enable CLK outputs 0, 1, 2, 3, 4, 5, 7 only. */
  void si5351c_enable_clock_outputs()
  {
-	uint8_t data[] = { 3, 0x40 };
+	//uint8_t data[] = { 3, 0x40 };
+	 uint8_t data[] = { 3, 0x60 };
+
  	si5351c_write(data, sizeof(data));
  }
 

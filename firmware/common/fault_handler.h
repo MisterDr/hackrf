@@ -26,6 +26,9 @@
 
 #include <libopencm3/cm3/memorymap.h>
 
+#include "hackrf_core.h"
+
+
 // TODO: Move all this to a Cortex-M(?) include file, since these
 // structures are supposedly the same between processors (to an
 // undetermined extent).

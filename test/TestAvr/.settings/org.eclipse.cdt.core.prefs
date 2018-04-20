@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/de.innot.avreclipse.configuration.app.debug.1660786866/AVRDUDEPATH/delimiter=\:
+environment/project/de.innot.avreclipse.configuration.app.debug.1660786866/AVRDUDEPATH/operation=replace
+environment/project/de.innot.avreclipse.configuration.app.debug.1660786866/AVRDUDEPATH/value=/usr/local/CrossPack-AVR/bin/avrdude
+environment/project/de.innot.avreclipse.configuration.app.debug.1660786866/append=true
+environment/project/de.innot.avreclipse.configuration.app.debug.1660786866/appendContributed=true

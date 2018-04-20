@@ -1,0 +1,27 @@
+var clock__17xx__40xx_8c =
+[
+    [ "Chip_Clock_DisablePeriphClock", "clock__17xx__40xx_8c.html#ga1bcb3f29f3cfbe896517e7bb6ebeaf03", null ],
+    [ "Chip_Clock_DisablePLL", "clock__17xx__40xx_8c.html#ga96be369d77fd3f8807db47238b98f531", null ],
+    [ "Chip_Clock_EnablePeriphClock", "clock__17xx__40xx_8c.html#gac63024a1f928ba359c4f4cac7e48fe39", null ],
+    [ "Chip_Clock_EnablePLL", "clock__17xx__40xx_8c.html#gab7284d5af33f8f0ee98e193a22b9fa6d", null ],
+    [ "Chip_Clock_GetCPUClockDiv", "clock__17xx__40xx_8c.html#ga3e1ef8ac1f9c19b33016c914b01fd9a4", null ],
+    [ "Chip_Clock_GetCPUClockSource", "clock__17xx__40xx_8c.html#ga84a5acda2829b05c81326606630b7238", null ],
+    [ "Chip_Clock_GetMainClockRate", "clock__17xx__40xx_8c.html#gaf5319079ca1531102c01860d05a69960", null ],
+    [ "Chip_Clock_GetMainPllOutClockRate", "clock__17xx__40xx_8c.html#gaed90f89eb55ed5035c717508c5011350", null ],
+    [ "Chip_Clock_GetPeripheralClockRate", "clock__17xx__40xx_8c.html#a70f68084d66a58c67d67ce587fde4039", null ],
+    [ "Chip_Clock_GetSPIFIClockRate", "clock__17xx__40xx_8c.html#ga09e6d1ff0c53ebffd5f6fd407ea01ddb", null ],
+    [ "Chip_Clock_GetSYSCLKRate", "clock__17xx__40xx_8c.html#gaec133465745ce56e49b184185f8252e1", null ],
+    [ "Chip_Clock_GetSystemClockRate", "clock__17xx__40xx_8c.html#gaf3dd97239f9db511dbc71c531132cc08", null ],
+    [ "Chip_Clock_GetUSBClockDiv", "clock__17xx__40xx_8c.html#ga5852bdb5470a03988aaae8c68e3fb5fd", null ],
+    [ "Chip_Clock_GetUSBClockRate", "clock__17xx__40xx_8c.html#gac8679aba3cc005f859604a09ceceb4a4", null ],
+    [ "Chip_Clock_GetUSBPllOutClockRate", "clock__17xx__40xx_8c.html#gad8dce429cbdd8ae510d7ee463f07da4e", null ],
+    [ "Chip_Clock_IsPeripheralClockEnabled", "clock__17xx__40xx_8c.html#ga0d7f762be4d4293d10d379fcc0b2388b", null ],
+    [ "Chip_Clock_SetCLKOUTSource", "clock__17xx__40xx_8c.html#ga0e8ed739d1ffa5480fc028b08a751d28", null ],
+    [ "Chip_Clock_SetCPUClockDiv", "clock__17xx__40xx_8c.html#gaf88a9722800b98c3ea3cccb572c54230", null ],
+    [ "Chip_Clock_SetCPUClockSource", "clock__17xx__40xx_8c.html#gaefeafe3f6ad6d2690c252e6cfcc826dd", null ],
+    [ "Chip_Clock_SetSPIFIClockDiv", "clock__17xx__40xx_8c.html#ga2cde27bd6930a102a0b2b1b7f0561200", null ],
+    [ "Chip_Clock_SetSPIFIClockSource", "clock__17xx__40xx_8c.html#ga5f9e0080824fdcbca2d70f277302da12", null ],
+    [ "Chip_Clock_SetupPLL", "clock__17xx__40xx_8c.html#gaf503d74b2583bf88b3817388676ac868", null ],
+    [ "Chip_Clock_SetUSBClockDiv", "clock__17xx__40xx_8c.html#gae63a884704ec0b314373e34165f62963", null ],
+    [ "Chip_Clock_SetUSBClockSource", "clock__17xx__40xx_8c.html#ga4836fb1246978d20cbbf54d7ca1bff5a", null ]
+];

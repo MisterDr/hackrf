@@ -1,0 +1,40 @@
+;-------------------------------------------------------------------------------------
+;   Keil scatter loading file
+;-------------------------------------------------------------------------------------
+
+; All code and data on the M4 core has a total size <= 256K. This includes
+; the embedded 32K (max) image for the M0 core
+FLASH 0x10010000 {
+  ; All M0 code and RO data in IRAM at address 0x10010000. The image is linked
+  ; here, so when the image is inserted in the M4 image, it must be guaranteed
+  ; this location in the M4 image. See the M4 image's linker script to see how
+  ; this is done.
+  ; Note the M0 image must reside on a 4K boundary
+  ; Note the use of the NOCOMPRESS attribute. This will allow the data section
+  ; to be uncompressed in the image. If the section is compressed, the M0 data
+  ; section may overlap with M4 data once it's uncompressed.
+  ER_RO 0x10010000 NOCOMPRESS 0x10000 {
+    startup_*.o (RESET, +FIRST)
+    *.o (+RO)
+    *.o (+RW, +ZI)
+  }
+
+  ; Shared memory region for M0 and M4 core. The M4 core initializes this
+  ; region at run-time usually before the M0 core is running.
+  SHMEM 0x10080000 0x100 {
+	ipc_msg*.o (SHMEMM0, SHMEMM4)
+  }
+
+  ; Memory used by nxpUSBLib stack
+  USBMEM 0x10080100 0xF00 {
+	*.o (USBRAM_SECTION)
+  }
+
+  ; LWIP Buffers
+  ER_RW1 0x10081000 NOCOMPRESS 0x00010000 {
+   	memp.o (+RW, +ZI)
+	mem.o (+RW, +ZI)
+	dataram.o(+RO, +RW)
+	startup_*(HEAP)
+  }
+}

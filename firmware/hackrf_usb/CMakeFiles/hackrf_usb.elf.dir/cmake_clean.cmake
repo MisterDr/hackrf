@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hackrf_usb.elf.dir/hackrf_usb.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/tuning.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/streaming.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/sgpio_isr.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_bulk_buffer.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/usb.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/usb_request.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/usb_standard_request.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_descriptor.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_device.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_endpoint.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_api_board_info.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_api_cpld.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_api_register.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_api_spiflash.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/usb_api_transceiver.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/usb_queue.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/fault_handler.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/w25q80bv.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/cpld_jtag.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/xapp058/lenval.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/xapp058/micro.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/xapp058/ports.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/rom_iap.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/hackrf_core.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/sgpio.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/rf_path.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/si5351c.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/max2837.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/max5864.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/__/common/rffc5071.c.obj"
+  "CMakeFiles/hackrf_usb.elf.dir/m0_bin.s.obj"
+  "hackrf_usb.elf.pdb"
+  "hackrf_usb.elf"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/hackrf_usb.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

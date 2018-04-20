@@ -1,0 +1,25 @@
+var spi__8xx_8h =
+[
+    [ "SPI_CONFIG_T", "spi__8xx_8h.html#gabf7454db73d1c45a2c73e3f88dfc6099", null ],
+    [ "SPI_DELAY_CONFIG_T", "spi__8xx_8h.html#gaffe3f55c1f44aa3fd73d2fd3a12ce5e3", null ],
+    [ "Chip_SPI_CalClkRateDivider", "spi__8xx_8h.html#ga9b2f7652e4a62956018562ffa9955942", null ],
+    [ "Chip_SPI_DeInit", "spi__8xx_8h.html#ga3e66e7da01f6f10c9ead1e39fdbb8914", null ],
+    [ "Chip_SPI_DelayConfig", "spi__8xx_8h.html#ga62ac407e9e99b75cd77170bac88b5162", null ],
+    [ "Chip_SPI_Disable", "spi__8xx_8h.html#ga06841b04380715f6a28b9105c72f7c7c", null ],
+    [ "Chip_SPI_DisableLoopBack", "spi__8xx_8h.html#ga931def69ceef8cb3565d3585f30c723d", null ],
+    [ "Chip_SPI_Enable", "spi__8xx_8h.html#ga7fd42a1c2761fdcab0165cb5cb6ddcd1", null ],
+    [ "Chip_SPI_EnableLoopBack", "spi__8xx_8h.html#gafe80d0e10a2fea790d5f2254595df221", null ],
+    [ "Chip_SPI_GetStatus", "spi__8xx_8h.html#gad564f27357b94cd8299ee962f10e2788", null ],
+    [ "Chip_SPI_Init", "spi__8xx_8h.html#ga0388228e5a0e81979603872593e7ddb5", null ],
+    [ "Chip_SPI_Int_Cmd", "spi__8xx_8h.html#ga031e4c8d1092f36acdd48bd3545e8215", null ],
+    [ "Chip_SPI_Int_RWFrames", "spi__8xx_8h.html#gaab6de91a1b7615dfd35b7b03903d65d5", null ],
+    [ "Chip_SPI_ReadFrames_Blocking", "spi__8xx_8h.html#gaa23a45a1d6089842e60c32c3c8ee21b1", null ],
+    [ "Chip_SPI_ReceiveFrame", "spi__8xx_8h.html#gaa2be623cca6df61336c9d71655166904", null ],
+    [ "Chip_SPI_RWFrames_Blocking", "spi__8xx_8h.html#ga1f4842c537c1a80496dd623989b3ce70", null ],
+    [ "Chip_SPI_SendFirstFrame", "spi__8xx_8h.html#ga5520507b90b430c5290fd856b3e150f5", null ],
+    [ "Chip_SPI_SendFirstFrame_RxIgnore", "spi__8xx_8h.html#ga7871a23bc5835baf11578f4e14a91a98", null ],
+    [ "Chip_SPI_SendLastFrame", "spi__8xx_8h.html#gae4e3f4b9303d27c6a08fe19aed629957", null ],
+    [ "Chip_SPI_SendLastFrame_RxIgnore", "spi__8xx_8h.html#ga6a2e25da0d1782957588ccf853eb8549", null ],
+    [ "Chip_SPI_SendMidFrame", "spi__8xx_8h.html#ga602b20a354529b38aebcb86afa2b3f4c", null ],
+    [ "Chip_SPI_WriteFrames_Blocking", "spi__8xx_8h.html#gacc501ea1ad3986f3ec88a6dc1150ec8d", null ]
+];

@@ -34,22 +34,26 @@ int main(void)
 	pin_setup();
 	enable_1v8_power();
 #ifdef HACKRF_ONE
-	enable_rf_power();
+	//enable_rf_power();
 #endif
+
 	cpu_clock_init();
-    ssp1_init();
+
+    blink(800000);
+
+    //ssp1_init();
     
 	gpio_set(PORT_LED1_3, (PIN_LED1)); /* LED1 on */
 
-	ssp1_set_mode_max2837();
-	max2837_setup();
+	//ssp1_set_mode_max2837();
+	//max2837_setup();
 	gpio_set(PORT_LED1_3, (PIN_LED2)); /* LED2 on */
-	max2837_set_frequency(freq);
-	max2837_start();
-	max2837_tx();
+	//max2837_set_frequency(freq);
+	//max2837_start();
+	//max2837_tx();
 	gpio_set(PORT_LED1_3, (PIN_LED3)); /* LED3 on */
 	while (1);
-	max2837_stop();
+	//max2837_stop();
 
 	return 0;
 }

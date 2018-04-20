@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['s16_5ft',['s16_t',['../cc_8h.html#acf46f4df0ebab84edebcb69967fdf86b',1,'cc.h']]],
+  ['s32_5ft',['s32_t',['../cc_8h.html#a10f9a3d7baef58ccc23228c3bd29c1fb',1,'cc.h']]],
+  ['s8_5ft',['s8_t',['../cc_8h.html#a9cd1d7891fe315de1201e2c6e45f4f57',1,'cc.h']]],
+  ['scsi_5finquiry_5fresponse_5ft',['SCSI_Inquiry_Response_t',['../group___group___u_s_b_class_m_s_common.html#gae774218b5f41098f22cdeb569f9ed19e',1,'MassStorageClassCommon.h']]],
+  ['scsi_5frequest_5fsense_5fresponse_5ft',['SCSI_Request_Sense_Response_t',['../group___group___u_s_b_class_m_s_common.html#ga792bd25050191df94093c51707cd1e15',1,'MassStorageClassCommon.h']]],
+  ['sdmmc_5fevsetup_5ffunc_5ft',['SDMMC_EVSETUP_FUNC_T',['../group___c_h_i_p___s_d_m_m_c___definitions.html#ga92e792037de90b2a668f4ad9d3e0691e',1,'lpc_sdmmc.h']]],
+  ['sdmmc_5fevwait_5ffunc_5ft',['SDMMC_EVWAIT_FUNC_T',['../group___c_h_i_p___s_d_m_m_c___definitions.html#ga89a7c7c7b53b552eba655f7a36bf5280',1,'lpc_sdmmc.h']]],
+  ['sdmmc_5fmsdelay_5ffunc_5ft',['SDMMC_MSDELAY_FUNC_T',['../group___c_h_i_p___s_d_m_m_c___definitions.html#gae9ee282fb031a91c94362d669d05b845',1,'lpc_sdmmc.h']]],
+  ['setstate',['SetState',['../group___l_p_c___types___public___types.html#ga7fab312a9f10f1386a955977d2ec96fe',1,'lpc_types.h']]],
+  ['short',['SHORT',['../integer_8h.html#a9909bd3cf05f0906045f2ee85be4eeac',1,'integer.h']]],
+  ['spi_5fconfig_5ft',['SPI_CONFIG_T',['../group___s_p_i__8_x_x.html#gabf7454db73d1c45a2c73e3f88dfc6099',1,'spi_8xx.h']]],
+  ['spi_5fdelay_5fconfig_5ft',['SPI_DELAY_CONFIG_T',['../group___s_p_i__8_x_x.html#gaffe3f55c1f44aa3fd73d2fd3a12ce5e3',1,'spi_8xx.h']]],
+  ['sys_5fmbox_5ft',['sys_mbox_t',['../sys__arch_8h.html#a14a840c3e54ff91953ce7c8404f1a2fa',1,'sys_arch.h']]],
+  ['sys_5fmutex_5ft',['sys_mutex_t',['../sys__arch_8h.html#ad243dbaa27d93d422fae6e54aadca939',1,'sys_arch.h']]],
+  ['sys_5fprot_5ft',['sys_prot_t',['../sys__arch_8h.html#a038cce378dfe3067a1c69d14679dd354',1,'sys_arch.h']]],
+  ['sys_5fsem_5ft',['sys_sem_t',['../sys__arch_8h.html#aec5d375beb722c2f756b2c312c3f173a',1,'sys_arch.h']]],
+  ['sys_5fthread_5ft',['sys_thread_t',['../sys__arch_8h.html#a16345d8642040764960d82ecf1a318c9',1,'sys_arch.h']]]
+];

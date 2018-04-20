@@ -1,0 +1,28 @@
+var os__type_8h =
+[
+    [ "OS_CPU_USAGE", "os__type_8h.html#a15e6d693d849083482f2b1409ec0f645", null ],
+    [ "OS_CTR", "os__type_8h.html#abab139138788d78d6dcfacf68f11fa89", null ],
+    [ "OS_CTX_SW_CTR", "os__type_8h.html#a3dc64b6145a1a24bfb7ceaa5e9bc787a", null ],
+    [ "OS_CYCLES", "os__type_8h.html#a20880b91cd540adbabe83c45acbf8042", null ],
+    [ "OS_FLAGS", "os__type_8h.html#a86baae5a0354d79ddc0a7c14afb9f7d3", null ],
+    [ "OS_IDLE_CTR", "os__type_8h.html#a1a955f6b5a3fdf0694ca14deda33d78d", null ],
+    [ "OS_MEM_QTY", "os__type_8h.html#a9eedfaad28d956f90862789565885fb9", null ],
+    [ "OS_MEM_SIZE", "os__type_8h.html#aab0f4292a04bf4962cac552a5a453bdb", null ],
+    [ "OS_MSG_QTY", "os__type_8h.html#add679702377a4702775b85bf24d90f10", null ],
+    [ "OS_MSG_SIZE", "os__type_8h.html#af69ed18e0a5eb51345c949383a6530a0", null ],
+    [ "OS_NESTING_CTR", "os__type_8h.html#a57c4119265fed589a8dc894408322f06", null ],
+    [ "OS_OBJ_QTY", "os__type_8h.html#a4cc8910628dd41949aad75898ec986df", null ],
+    [ "OS_OBJ_TYPE", "os__type_8h.html#ab64a52ed27a8516dc79c33a480515d85", null ],
+    [ "OS_OPT", "os__type_8h.html#a9db6292cde529631397718d8bb71db92", null ],
+    [ "OS_PRIO", "os__type_8h.html#ae3e935490a694cc0a914246c8126b3ee", null ],
+    [ "OS_QTY", "os__type_8h.html#a1710bbcc358302fb9f949f3f21b3d3e1", null ],
+    [ "OS_RATE_HZ", "os__type_8h.html#aab909f4c3d06db012faa5c544f6d51e3", null ],
+    [ "OS_REG", "os__type_8h.html#a8475c8e902be87eeff770b13a1bdb5b4", null ],
+    [ "OS_REG_ID", "os__type_8h.html#a208bec825da06427a70f34324b7fbd61", null ],
+    [ "OS_SEM_CTR", "os__type_8h.html#ab37a4bec097c14591f7685c2209aa474", null ],
+    [ "OS_STATE", "os__type_8h.html#aa6822eff92aed3c5319d0204b06bef41", null ],
+    [ "OS_STATUS", "os__type_8h.html#a873c89a92f9d364c7ded6d9857804a71", null ],
+    [ "OS_TICK", "os__type_8h.html#a5ab2a5f049322ddcc3919ec768903cee", null ],
+    [ "OS_TICK_SPOKE_IX", "os__type_8h.html#a79aa38dbb0178fc9c9f31aa5adb5edd4", null ],
+    [ "OS_TMR_SPOKE_IX", "os__type_8h.html#a4472331d6304def4e24641f9340c8aff", null ]
+];

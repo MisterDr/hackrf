@@ -1,0 +1,2 @@
+Dependencies for Project 'LPC43XX_IPC_m4m0', Target 'Standalone_M4': (DO NOT MODIFY !)
+F (.\ipc_msg.c)(0x504A204D)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC43xx -D__LPC43XX__ -DCORE_M4 -DEVENT_ON_RX -o ".\keil_output\ipc_msg.o" --omf_browse ".\keil_output\ipc_msg.crf" --depend ".\keil_output\ipc_msg.d")

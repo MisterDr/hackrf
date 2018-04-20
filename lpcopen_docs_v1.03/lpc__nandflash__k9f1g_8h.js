@@ -1,0 +1,25 @@
+var lpc__nandflash__k9f1g_8h =
+[
+    [ "K9F1G_BLOCK_COUNT", "lpc__nandflash__k9f1g_8h.html#ga2407d5aecd63cbb5a00cb770365feb19", null ],
+    [ "K9F1G_BLOCK_ERASE_1", "lpc__nandflash__k9f1g_8h.html#ga80486e7387edfdd1f5195dc41cb353d9", null ],
+    [ "K9F1G_BLOCK_ERASE_2", "lpc__nandflash__k9f1g_8h.html#ga8c815eb0b4ff870981d1d9c94f7d136e", null ],
+    [ "K9F1G_PAGE_PROGRAM_1", "lpc__nandflash__k9f1g_8h.html#gac6ed0d9064e9cc1222fdee7f058f0158", null ],
+    [ "K9F1G_PAGE_PROGRAM_2", "lpc__nandflash__k9f1g_8h.html#ga57596362832670995b15f23ecb38801c", null ],
+    [ "K9F1G_PAGE_SIZE", "lpc__nandflash__k9f1g_8h.html#ga8a3bf075e87b21a4b2b3e9852383853d", null ],
+    [ "K9F1G_PAGES_PER_BLOCK", "lpc__nandflash__k9f1g_8h.html#gabb6a1b480ff7f50086946cede99a9fa9", null ],
+    [ "K9F1G_READ_1", "lpc__nandflash__k9f1g_8h.html#gabeb9ebc955c0256680dd4e01069ef327", null ],
+    [ "K9F1G_READ_2", "lpc__nandflash__k9f1g_8h.html#gac207d9bcdc698405aa55e00a83023685", null ],
+    [ "K9F1G_READ_ID", "lpc__nandflash__k9f1g_8h.html#gaf8d590376ff28194f1dcadfeb7a5f186", null ],
+    [ "K9F1G_READ_STATUS", "lpc__nandflash__k9f1g_8h.html#ga8b36dc9c4830766f463292f478be9ecb", null ],
+    [ "K9F1G_RESET", "lpc__nandflash__k9f1g_8h.html#gabf7c0cd0770ca4af6e313fbfee3f25ce", null ],
+    [ "K9F1G_SPARE_SIZE", "lpc__nandflash__k9f1g_8h.html#gaa3c29a4bf4133b7ea5e846abe77953f5", null ],
+    [ "K9F1G_SPARE_START_ADDR", "lpc__nandflash__k9f1g_8h.html#ga2b746596eb6096f027ac2cd2875da813", null ],
+    [ "KF91G_NANDFLASH", "lpc__nandflash__k9f1g_8h.html#ga013c0051be8352d34e52b36117eb7ea2", null ],
+    [ "NANDFLASH_BLOCK_ERASE_TIME", "lpc__nandflash__k9f1g_8h.html#gafc16c05f67d786a9852896bce1c9676b", null ],
+    [ "NANDFLASH_PROG_TIME", "lpc__nandflash__k9f1g_8h.html#gaa37feb3d3d4ace9440d04e5053df37e3", null ],
+    [ "NANDFLASH_READ_TIME", "lpc__nandflash__k9f1g_8h.html#ga40aee1f6b9aae98813ef4788574e4a31", null ],
+    [ "NANDFLASH_STATUS_BLOCK_ERASE_FAIL", "lpc__nandflash__k9f1g_8h.html#ga5c55de7c63ce9ec037060644a9e2ff03", null ],
+    [ "NANDFLASH_STATUS_DEV_READY", "lpc__nandflash__k9f1g_8h.html#ga899639b20786c6d6be96ed5c67669f63", null ],
+    [ "NANDFLASH_STATUS_PAGE_PROG_FAIL", "lpc__nandflash__k9f1g_8h.html#gaf3fdeaf131cd37ff9252fe7f85647315", null ],
+    [ "NANDFLASH_STATUS_READ_WRITE_NPROTECTED", "lpc__nandflash__k9f1g_8h.html#ga43ad48fc8d1bce27b6ea062745f72fcf", null ]
+];

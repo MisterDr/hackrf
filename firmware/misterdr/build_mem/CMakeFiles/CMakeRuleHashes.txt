@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+1983378fe9b5d96086c23ffbf8cadfb5 CMakeFiles/hackrf_usb-program
+b23ec84ad323cb8eefe31d3296cfe2c0 CMakeFiles/hackrf_usb.bin
+fce984884f5fd58cf7c3dd4653a96ee3 CMakeFiles/hackrf_usb.dfu
+5413397db8c91aa086745d690e8d67b2 CMakeFiles/hackrf_usb_m0.bin

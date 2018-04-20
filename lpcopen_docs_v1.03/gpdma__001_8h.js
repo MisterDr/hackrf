@@ -1,0 +1,57 @@
+var gpdma__001_8h =
+[
+    [ "GPDMA_CHANNELS", "gpdma__001_8h.html#ga97cb4d484f1b345d50b0fefa4214b046", null ],
+    [ "GPDMA_DMACConfig_BITMASK", "gpdma__001_8h.html#gad882001a1a177628f45ffa5a57a2c894", null ],
+    [ "GPDMA_DMACConfig_E", "gpdma__001_8h.html#ga253822f2712564a42379a76d9447cde4", null ],
+    [ "GPDMA_DMACConfig_M", "gpdma__001_8h.html#ga0f2a7e8c8704f5a897f911ac3a8617e3", null ],
+    [ "GPDMA_DMACCxConfig_A", "gpdma__001_8h.html#gae28eb1e74ecafc5e6170e3f7a8688335", null ],
+    [ "GPDMA_DMACCxConfig_DestPeripheral", "gpdma__001_8h.html#ga3b65fa1394d8c93789dd249c4e8a7568", null ],
+    [ "GPDMA_DMACCxConfig_E", "gpdma__001_8h.html#ga1c7608bb37d512277e42672ee4e785a5", null ],
+    [ "GPDMA_DMACCxConfig_H", "gpdma__001_8h.html#ga987a4bb2d26cf2ef476483f347ad49ff", null ],
+    [ "GPDMA_DMACCxConfig_IE", "gpdma__001_8h.html#ga0fb4c3e9768c0a757b6ff25f77b75a26", null ],
+    [ "GPDMA_DMACCxConfig_ITC", "gpdma__001_8h.html#gac7c379cbf11a214f436620e4f7a7ee2a", null ],
+    [ "GPDMA_DMACCxConfig_L", "gpdma__001_8h.html#ga37a55c8ebde3d56defbf6281534237fe", null ],
+    [ "GPDMA_DMACCxConfig_SrcPeripheral", "gpdma__001_8h.html#gaccb73c66c5349ec79a3f332d77554f0c", null ],
+    [ "GPDMA_DMACCxConfig_TransferType", "gpdma__001_8h.html#ga63bace54233ed2446a1b442b46243833", null ],
+    [ "GPDMA_DMACCxControl_DBSize", "gpdma__001_8h.html#ga18c40b7931f0b6cfe8b81f9a982c0641", null ],
+    [ "GPDMA_DMACCxControl_DestTransUseAHBMaster1", "gpdma__001_8h.html#gacd71734a295849633110d6c64edda70c", null ],
+    [ "GPDMA_DMACCxControl_DI", "gpdma__001_8h.html#gaddcec41c911bbd0911391e6195c1c040", null ],
+    [ "GPDMA_DMACCxControl_DWidth", "gpdma__001_8h.html#ga67bb6ed286afe6d4091c0fcd8799b451", null ],
+    [ "GPDMA_DMACCxControl_I", "gpdma__001_8h.html#ga6ef0b54b0190c139796679d6db1e6e19", null ],
+    [ "GPDMA_DMACCxControl_Prot1", "gpdma__001_8h.html#ga883ee41e16f8df248437075cebab7993", null ],
+    [ "GPDMA_DMACCxControl_Prot2", "gpdma__001_8h.html#gabe38faff26ee3951122c23ff1425d70a", null ],
+    [ "GPDMA_DMACCxControl_Prot3", "gpdma__001_8h.html#gaf6a439bbf5a4b082fa7f36effca23f15", null ],
+    [ "GPDMA_DMACCxControl_SBSize", "gpdma__001_8h.html#ga1f5c9d534965c6a89ea22ca3fa48d859", null ],
+    [ "GPDMA_DMACCxControl_SI", "gpdma__001_8h.html#gaa9b006e86536835dfe6f7034ee25d12a", null ],
+    [ "GPDMA_DMACCxControl_SrcTransUseAHBMaster1", "gpdma__001_8h.html#ga90b29a1b2c82b32d6e586d74cdd727b7", null ],
+    [ "GPDMA_DMACCxControl_SWidth", "gpdma__001_8h.html#ga2ee63289c5e248a07ea901e233e1dd00", null ],
+    [ "GPDMA_DMACCxControl_TransferSize", "gpdma__001_8h.html#ga0e3ee35f724f4ef0cc8e91dfaec761e4", null ],
+    [ "IP_GPDMA_FLOW_CONTROL_T", "gpdma__001_8h.html#gabb8c4f9972b9b4e4e7b7b187ffc2c34c", [
+      [ "GPDMA_TRANSFERTYPE_M2M_CONTROLLER_DMA", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34cae5ff87adb4451f2a695c9d21c3c52c59", null ],
+      [ "GPDMA_TRANSFERTYPE_M2P_CONTROLLER_DMA", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34ca331474560497f41cfe921b0e55ce8722", null ],
+      [ "GPDMA_TRANSFERTYPE_P2M_CONTROLLER_DMA", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34caa2ae587fb924cb679f51250470927e34", null ],
+      [ "GPDMA_TRANSFERTYPE_P2P_CONTROLLER_DMA", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34ca29ec59e967f3a1841002ef740552c1d5", null ],
+      [ "GPDMA_TRANSFERTYPE_P2P_CONTROLLER_DestPERIPHERAL", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34ca176e307292918213de220bdae957ad6d", null ],
+      [ "GPDMA_TRANSFERTYPE_M2P_CONTROLLER_PERIPHERAL", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34ca640177df7a3c696a9ccab9a09dcdbc0c", null ],
+      [ "GPDMA_TRANSFERTYPE_P2M_CONTROLLER_PERIPHERAL", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34caaeaf72b20cee326722ee7650405e2e43", null ],
+      [ "GPDMA_TRANSFERTYPE_P2P_CONTROLLER_SrcPERIPHERAL", "gpdma__001_8h.html#ggabb8c4f9972b9b4e4e7b7b187ffc2c34ca4615bdb6a415ddc02f8eab20a700a17d", null ]
+    ] ],
+    [ "IP_GPDMA_STATECLEAR_T", "gpdma__001_8h.html#ga08dc83674cd7662f093ff7626a30ee37", [
+      [ "GPDMA_STATCLR_INTTC", "gpdma__001_8h.html#gga08dc83674cd7662f093ff7626a30ee37a9a0c8256eb0f656d56f065914219c96c", null ],
+      [ "GPDMA_STATCLR_INTERR", "gpdma__001_8h.html#gga08dc83674cd7662f093ff7626a30ee37af6e975b9dfa7d659d18a377c7873b92a", null ]
+    ] ],
+    [ "IP_GPDMA_STATUS_T", "gpdma__001_8h.html#ga6a91b1beab0b54ebafc6bca08ec269eb", [
+      [ "GPDMA_STAT_INT", "gpdma__001_8h.html#gga6a91b1beab0b54ebafc6bca08ec269ebaf89b610470a940617af6bef4f4451aa9", null ],
+      [ "GPDMA_STAT_INTTC", "gpdma__001_8h.html#gga6a91b1beab0b54ebafc6bca08ec269ebac093908914ed40148e81169fc15df2f7", null ],
+      [ "GPDMA_STAT_INTERR", "gpdma__001_8h.html#gga6a91b1beab0b54ebafc6bca08ec269ebaee7927c433e007f270c365bcca865706", null ],
+      [ "GPDMA_STAT_RAWINTTC", "gpdma__001_8h.html#gga6a91b1beab0b54ebafc6bca08ec269eba4a74b1bc907fbbdbf9dfb05222f0b513", null ],
+      [ "GPDMA_STAT_RAWINTERR", "gpdma__001_8h.html#gga6a91b1beab0b54ebafc6bca08ec269ebad547775dc5510034932bf1597931e899", null ],
+      [ "GPDMA_STAT_ENABLED_CH", "gpdma__001_8h.html#gga6a91b1beab0b54ebafc6bca08ec269eba711d88f645a203338f297a286b912767", null ]
+    ] ],
+    [ "IP_GPDMA_ChannelCmd", "gpdma__001_8h.html#gac33cdcca844480ac4c53bbc7226d475c", null ],
+    [ "IP_GPDMA_ClearIntPending", "gpdma__001_8h.html#ga75c63a2b1daf883e5bd2ac7b04fbe0a5", null ],
+    [ "IP_GPDMA_Init", "gpdma__001_8h.html#gad1e5665df52728ba11c5344a7fc636b1", null ],
+    [ "IP_GPDMA_IntGetStatus", "gpdma__001_8h.html#gabd8cb3181bd8a809730b5db2503aa932", null ],
+    [ "IP_GPDMA_MakeCtrlWord", "gpdma__001_8h.html#gaef2eac0f73b0b070c7898a7fc9ffdef2", null ],
+    [ "IP_GPDMA_Setup", "gpdma__001_8h.html#ga1ac25617efc46f925f7bfcb75f60f7b8", null ]
+];

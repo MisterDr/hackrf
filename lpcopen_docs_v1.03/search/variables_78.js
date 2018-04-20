@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['x',['X',['../struct_i2_s___r_a_t_e___c_o_n_f_i_g.html#aab1bda195b91ffec73b84bc55e9dccf1',1,'I2S_RATE_CONFIG::X()'],['../_h_i_d_class_common_8h.html#a26d6910f0a9477e1a3cf28a8c4b91332',1,'X():&#160;HIDClassCommon.h']]],
+  ['x5x7_5fbits',['x5x7_bits',['../lpc__x5x7_8c.html#a0d74cb93fc1bbedbefb9fad943635e64',1,'lpc_x5x7.c']]],
+  ['x5x7_5fwidth',['x5x7_width',['../lpc__x5x7_8c.html#a0986897ee3dd181885bde89d898e8744',1,'lpc_x5x7.c']]],
+  ['x6x13_5fbits',['x6x13_bits',['../lpc__x6x13_8c.html#a08f200263aa5dd557523360a8c417a99',1,'lpc_x6x13.c']]],
+  ['x6x13_5fwidth',['x6x13_width',['../lpc__x6x13_8c.html#a5d64b4d0a1dca202ca2f58512f33c82d',1,'lpc_x6x13.c']]],
+  ['xdelay',['xDelay',['../group___e_x_a_m_p_l_e___d_u_a_l_c_o_r_e___b_l_i_n_k_y.html#gaec94344bbd5e5ece6593e86047c58ac0',1,'dualcore_blinky.c']]],
+  ['xf_5fsetup',['xf_setup',['../group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__18_x_x43_x_x___s_s_p.html#ga23b47e0b48be362523ec54d588944f8c',1,'xf_setup():&#160;ssp.c'],['../group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_s_p.html#ga23b47e0b48be362523ec54d588944f8c',1,'xf_setup():&#160;ssp.c'],['../group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__11_x_x___s_s_p.html#ga23b47e0b48be362523ec54d588944f8c',1,'xf_setup():&#160;ssp.c'],['../group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__13_x_x___s_s_p.html#ga23b47e0b48be362523ec54d588944f8c',1,'xf_setup():&#160;ssp.c']]],
+  ['xfer',['xfer',['../structi2c__slave__interface.html#ac742296237ce8a115a4db5ff5f7872f1',1,'i2c_slave_interface']]],
+  ['xfsetup',['XfSetup',['../lpc8xx_2examples_2periph_2periph__spi_2spi_8c.html#ac6da56cd12bc6a89f43e8e3c4cccb9d3',1,'spi.c']]],
+  ['xpmax',['xpmax',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#aa585daa10715278fa3616f2a65ccc29d',1,'SWIM_WINDOW_T']]],
+  ['xpmin',['xpmin',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#a6feb4759b19a5b6e385335ac1bc0ad84',1,'SWIM_WINDOW_T']]],
+  ['xpsize',['xpsize',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#a7ca93a5a75abc40d071b51e05763c957',1,'SWIM_WINDOW_T']]],
+  ['xpvmax',['xpvmax',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#a241edf96ed43035b5629f1b147dd80a8',1,'SWIM_WINDOW_T']]],
+  ['xpvmin',['xpvmin',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#a654fffa704caa3a9163a2c5f22799958',1,'SWIM_WINDOW_T']]],
+  ['xqueuemutex',['xQueueMutex',['../_g_u_i___x___free_r_t_o_s_8c.html#acd92513c7f186a8f69ba63c48523faed',1,'xQueueMutex():&#160;GUI_X_FreeRTOS.c'],['../_g_u_i___x__u_c_o_s_8c.html#ab582295638eca4806aa52617da1a1a46',1,'xQueueMutex():&#160;GUI_X_uCOS.c']]],
+  ['xsematxdone',['xSemaTxDone',['../_g_u_i___x___free_r_t_o_s_8c.html#aeda134d21048e04329170e64c50a2c77',1,'xSemaTxDone():&#160;GUI_X_FreeRTOS.c'],['../_g_u_i___x__u_c_o_s_8c.html#a22db85342fef7cebfc9bd2e8f63f23f0',1,'xSemaTxDone():&#160;GUI_X_uCOS.c']]],
+  ['xtal_5fosc_5fctrl',['XTAL_OSC_CTRL',['../struct_l_p_c___c_g_u___t.html#a08fa4263afc50502f29cf2659239b808',1,'LPC_CGU_T']]],
+  ['xtx_5fcount_5fsem',['xtx_count_sem',['../structlpc__enetdata__t.html#ab9182ab62049c7155db6d3769f548929',1,'lpc_enetdata_t']]],
+  ['xtxdcountsem',['xTXDCountSem',['../structlpc__enetdata.html#a7a6cbdb2c40a9bc2dbd23ebcc85ff2ae',1,'lpc_enetdata']]],
+  ['xvpos',['xvpos',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#a0a18e5a05782a55feeff684b15d0b297',1,'SWIM_WINDOW_T']]],
+  ['xvsize',['xvsize',['../struct_s_w_i_m___w_i_n_d_o_w___t.html#a484aacf7752e55ec31ec54cafbe578c5',1,'SWIM_WINDOW_T']]]
+];

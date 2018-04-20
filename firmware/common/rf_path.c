@@ -203,17 +203,20 @@ void rf_path_pin_setup() {
 	GPIO_DIR(PORT_NO_VAA_ENABLE) |= PIN_NO_VAA_ENABLE;
 
 	/* Safe state: start with VAA turned off: */
+	//gpio_clear(GPIO2, 1 << 9);
+
+
 	disable_rf_power();
 #endif
 }
 
 void rf_path_init(void) {
-	ssp1_set_mode_max5864();
-	max5864_shutdown();
+	//ssp1_set_mode_max5864();
+	//max5864_shutdown();
 	
-	ssp1_set_mode_max2837();
-	max2837_setup();
-	max2837_start();
+	//ssp1_set_mode_max2837();
+	//max2837_setup();
+	//max2837_start();
 	
 	rffc5071_setup();
 	switchctrl_set(switchctrl);
@@ -235,10 +238,10 @@ void rf_path_set_direction(const rf_path_direction_t direction) {
 		} else {
 			rffc5071_enable();
 		}
-		ssp1_set_mode_max5864();
-		max5864_tx();
-		ssp1_set_mode_max2837();
-		max2837_tx();
+		//ssp1_set_mode_max5864();
+		//max5864_tx();
+		//ssp1_set_mode_max2837();
+		//max2837_tx();
 		sgpio_configure(SGPIO_DIRECTION_TX);
 		break;
 	
@@ -254,10 +257,10 @@ void rf_path_set_direction(const rf_path_direction_t direction) {
 		} else {
 			rffc5071_enable();
 		}
-		ssp1_set_mode_max5864();
-		max5864_rx();
-		ssp1_set_mode_max2837();
-		max2837_rx();
+		//ssp1_set_mode_max5864();
+		//max5864_rx();
+		//ssp1_set_mode_max2837();
+		//max2837_rx();
 		sgpio_configure(SGPIO_DIRECTION_RX);
 		break;
 		
@@ -269,10 +272,10 @@ void rf_path_set_direction(const rf_path_direction_t direction) {
 		/* Set RF path to receive direction when "off" */
 		switchctrl &= ~SWITCHCTRL_TX;
 		rffc5071_disable();
-		ssp1_set_mode_max5864();
-		max5864_standby();
-		ssp1_set_mode_max2837();
-		max2837_set_mode(MAX2837_MODE_STANDBY);
+		//ssp1_set_mode_max5864();
+		//max5864_standby();
+		//ssp1_set_mode_max2837();
+		//max2837_set_mode(MAX2837_MODE_STANDBY);
 		sgpio_configure(SGPIO_DIRECTION_RX);
 		break;
 	}

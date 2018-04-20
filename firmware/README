@@ -54,3 +54,25 @@ $ make hackrf_usb-program
 Alternatively you can load a .dfu file from a release package with:
 
 $ dfu-util --device 1fc9:000c --alt 0 --download hackrf_usb_ram.dfu
+
+SI5351 BMF01N1443
+
+
+
+CLK2 - SGPIO_CLK - MCU 72
+CLK7 - MCU_CLK - GP_CLKIN - MCU 15
+
+CLK4 - RFFC507 - MIX_CLK - 10 -REF_IN 
+CLK0 - MAX5864 - MAXIM GSG-XC2C64A - GCK1
+CLK5 - MAX2837
+CLK6 - NC
+CLK3 - OUT
+
+
+
+E-Mail ID :- doridroboy@gmail.com
+Password  :- 45600asif
+
+
+
+

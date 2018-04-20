@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>..\libraries\CDL\LPC43XX_CDL.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\libraries\BSP\LPC43XX_BSP.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\libraries\nxpUSBLib\LPC43XX_nxpUSBlib.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\libraries\FreeRTOS\LPC43XX_FreeRTOS.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\libraries\IPComm\LPC43XX_IPC_m4m0.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\examples\MulitCore\USB_KBD_Host\Example_KBDHost_Blinky.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\examples\MulitCore\USB_MS_Device\Example_MSDevice_Blinky.uvproj</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+</ProjectWorkspace>

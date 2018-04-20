@@ -1,0 +1,26 @@
+var board__nxp__xpresso__1347_8h =
+[
+    [ "BOARD_NXP_XPRESSO_1347", "board__nxp__xpresso__1347_8h.html#a969c28575a7db9692309a0aa9f07977b", null ],
+    [ "BUTTONS_BUTTON1", "board__nxp__xpresso__1347_8h.html#a4db3afa28c58f940cf56bf28e21ee78c", null ],
+    [ "JOY_DOWN", "board__nxp__xpresso__1347_8h.html#a950e3ba6cd65c992b92f36b837c52a0a", null ],
+    [ "JOY_LEFT", "board__nxp__xpresso__1347_8h.html#a5b41c548ba97989b473f6393b9c2c7f1", null ],
+    [ "JOY_PRESS", "board__nxp__xpresso__1347_8h.html#a08968e3964995337594242759b10a988", null ],
+    [ "JOY_RIGHT", "board__nxp__xpresso__1347_8h.html#a59c1b2e5c6856ed044ba0635102fd995", null ],
+    [ "JOY_UP", "board__nxp__xpresso__1347_8h.html#a85e47af11e6a32e3a819f247d9f619d6", null ],
+    [ "LEDS_LED1", "board__nxp__xpresso__1347_8h.html#a07668d0bcd1025a056db2334373709b1", null ],
+    [ "LEDS_LED2", "board__nxp__xpresso__1347_8h.html#a067978238d36887c2c33d74e69f90bce", null ],
+    [ "LEDS_LED3", "board__nxp__xpresso__1347_8h.html#a5098266125f22427fe7b6bc41d6624c6", null ],
+    [ "LEDS_LED4", "board__nxp__xpresso__1347_8h.html#a1a6ab96957b8bca4e03a9eda35798611", null ],
+    [ "LEDS_NO_LEDS", "board__nxp__xpresso__1347_8h.html#a66d39a43d55d7e1af4550faeaa311ef1", null ],
+    [ "NO_BUTTON_PRESSED", "board__nxp__xpresso__1347_8h.html#af2d1f15dcb7bbeb2e2767ac1d6424ee1", null ],
+    [ "Board_ADC_Init", "board__nxp__xpresso__1347_8h.html#a0f76024d48ab27a5c0842f4bee0685e5", null ],
+    [ "Board_Buttons_Init", "board__nxp__xpresso__1347_8h.html#a6eac130aa4001f6268d0276a42454af5", null ],
+    [ "Board_I2C_DisableFastPlus", "board__nxp__xpresso__1347_8h.html#a6c614dcfdcab09c17414ef6902be47b2", null ],
+    [ "Board_I2C_EnableFastPlus", "board__nxp__xpresso__1347_8h.html#ae2fbbcd3dc81c9f3d31f32dbd1c22dfe", null ],
+    [ "Board_I2C_Init", "board__nxp__xpresso__1347_8h.html#gad631ffdb10f310f5a4b05f603b6149bf", null ],
+    [ "Board_Joystick_Init", "board__nxp__xpresso__1347_8h.html#a48a2cb2f4a675e0d7e4bc06690819ccb", null ],
+    [ "Board_SSP_Init", "board__nxp__xpresso__1347_8h.html#afdf2ff29bb90173de0449d0b80dbf407", null ],
+    [ "Board_UART_Init", "board__nxp__xpresso__1347_8h.html#aff0add2a9439b5ec4954ad17c33eb6e2", null ],
+    [ "Buttons_GetStatus", "board__nxp__xpresso__1347_8h.html#a13cca90c46cb527f5cc7a1bfe1d0121a", null ],
+    [ "Joystick_GetStatus", "board__nxp__xpresso__1347_8h.html#adb514f11b0c7bfc1ca0c90accbb44ddb", null ]
+];

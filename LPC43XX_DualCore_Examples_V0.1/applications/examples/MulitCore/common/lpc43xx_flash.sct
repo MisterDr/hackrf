@@ -1,0 +1,87 @@
+#! armcc -E
+;-------------------------------------------------------------------------------------
+;   Keil scatter loading file
+;-------------------------------------------------------------------------------------
+
+; Code for M0 and M4 are in external FLASH at 0x1C000000, we'll limit the
+; image size to 128K max
+FLASH (defined(IPC_bootM0) ? (defined(lpc43xx_iflash) ? 0x1A000000 : 0x1C000000) : (defined(lpc43xx_iflash) ? 0x1A020000 : 0x1C020000)) (defined(IPC_bootM0) ? 0x400000 : 0x20000) {
+  ; Place the M4 code in the first 64K of IRAM. If the image is larger than
+  ; 64K, the code can be placed into additional sections after the M0 image
+  ; section. Note the use of the PADVALUE attribute. It's will zero-fill
+  ; the unused regions betwee the end of the M4 image and the start of the M0
+  ; image with 0's. (This can also be done with the tool used to create the
+  ; binary image).
+  ER_RO +0 PADVALUE 0xFF 0x20000 {
+    startup_lpc43xx*.o (RESET, +FIRST)
+    *.o (+RO)
+  }
+
+  ; A 2nd execution region is mapped at offset 64K. The M0 image, which has
+  ; been linked for address 0x1X010000, is placed here. This guarantees a
+  ; 64K aligned for the M0 image at the address it was linked at.
+  ; Note that the image is padded to use the entire 8K in the generated
+  ; binary file. The padding also guarantees that any data placed after this
+  ; section will not overlap this section (ie, if this section is smaller
+  ; than 32K). This makes updating just the M0 image in FLASH easier as the
+  ; size is pre-determined.
+  ER_RO2 (defined(IPC_bootM0) ? (defined(lpc43xx_iflash) ? 0x1A020000 : 0x1C020000) : +0) FIXED PADVALUE 0xFF 0x20000 {
+    m0_image*.o (+RO, +RW)
+  }
+
+  ; You can remove the padding to make smaller HEX and ELF/AXF files
+
+  ; Place the M4 data in the first 20K of IRAM.
+  ER_RW (defined(IPC_bootM0) ? 0x10080000 : 0x10085000) 0x5000 {
+    *.o (+RW, +ZI)
+  }
+
+  ; The M0 core uses the 32K region at offset 64K in IRAM for it's RW
+  ; data area. If needed, you can reserve the location in the scatter
+  ; file.
+
+  ; Shared memory region for M0 and M4 core. The M4 core initializes this
+  ; region at run-time usually before the M0 core is running.
+  SHMEM 0x10000000 0x100 {
+	  ipc_msg*.o (SHMEMM0, SHMEMM4)
+  }
+  
+  ; Shared DATARAM area
+  DATARAM 0x28000000 0x4000
+  {
+    dataram*.o (+RO,+RW)
+  }
+  
+  ; Memory used by nxpUSBLib stack
+  ; First 64K of the SDRAM
+  USBMEM 0x28004000 0xC000 {
+    *.o (USBRAM_SECTION)
+  }
+
+  ; LWIP Buffers
+  ; From 64K next 256K is used for network (LwIP)
+  ER_RW1 0x28010000 NOCOMPRESS 0x40000 {
+   	mem*.o (+RW, +ZI)
+	  lpc18xx_43xx_emac.o (+RW, +ZI)
+  }
+  
+  ; uCOSIII Data
+  ER_RW2 (defined(IPC_bootM0) ? 0x28050000 : 0x28054000) NOCOMPRESS 0x4000 {
+    os_cfg_app.o (+RW, +ZI)
+  }
+  
+  HEAP (defined(IPC_bootM0) ? 0x28058000 : 0x2805C000)  0x4000
+  {
+	  startup_lpc43xx*.o (HEAP)
+  }
+  
+  ; EmWin VRAM Buffer
+  ; ER_RW_VRAM 0x28060000 0x30000 {
+  ;}
+  
+  ; EmWin Data
+  ER_RW_EMWIN 0x28090000 0x300000 {
+    GUI*.o (+RW, +ZI)
+    LCD*.o (+RW, +ZI)
+  }
+}

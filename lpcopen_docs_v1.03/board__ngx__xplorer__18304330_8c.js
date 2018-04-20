@@ -1,0 +1,28 @@
+var board__ngx__xplorer__18304330_8c =
+[
+    [ "Board_Audio_CodecInit", "board__ngx__xplorer__18304330_8c.html#ga5157c2199043f625d0b2c84eaf78166f", null ],
+    [ "Board_Audio_Init", "board__ngx__xplorer__18304330_8c.html#gac588c7edb8f08dbb686aec2686b2819a", null ],
+    [ "Board_Buttons_Init", "board__ngx__xplorer__18304330_8c.html#ga6eac130aa4001f6268d0276a42454af5", null ],
+    [ "Board_Debug_Init", "board__ngx__xplorer__18304330_8c.html#gabcba073f50ad637ee6bc852f64ea2ce6", null ],
+    [ "Board_ENET_GetMacADDR", "board__ngx__xplorer__18304330_8c.html#ga4e21ba86f42bc4dd53b704a81d923e1d", null ],
+    [ "Board_GPIO_Int_Init", "board__ngx__xplorer__18304330_8c.html#ga4d4547babea8b92097d1a5b7a05b161b", null ],
+    [ "Board_I2C_Init", "board__ngx__xplorer__18304330_8c.html#gad631ffdb10f310f5a4b05f603b6149bf", null ],
+    [ "Board_Init", "board__ngx__xplorer__18304330_8c.html#gae8d2d761b984f48c3dbb27dd32a8c119", null ],
+    [ "Board_Joystick_Init", "board__ngx__xplorer__18304330_8c.html#ga48a2cb2f4a675e0d7e4bc06690819ccb", null ],
+    [ "Board_LED_Init", "board__ngx__xplorer__18304330_8c.html#ga683aa3eaefaa7fcb31f505ca401749a8", null ],
+    [ "Board_LED_Set", "board__ngx__xplorer__18304330_8c.html#ga4beb63d516764b260e9798642fab0047", null ],
+    [ "Board_LED_Test", "board__ngx__xplorer__18304330_8c.html#ga8e79f51947703de384c34bc86908bd9e", null ],
+    [ "Board_SDMMC_Init", "board__ngx__xplorer__18304330_8c.html#gab04cb3a09e241ac526a0fb2e9c0c37f8", null ],
+    [ "Board_SSP_Init", "board__ngx__xplorer__18304330_8c.html#gafdf2ff29bb90173de0449d0b80dbf407", null ],
+    [ "Board_UART_Init", "board__ngx__xplorer__18304330_8c.html#gad9a7067de5694c1615c4814bcec03b34", null ],
+    [ "Board_UARTGetChar", "board__ngx__xplorer__18304330_8c.html#ga4cffd2ff35f970b7dfad4fdf6419ecf6", null ],
+    [ "Board_UARTPutChar", "board__ngx__xplorer__18304330_8c.html#gada2a79f4fcd7cd730317fc34291bf08e", null ],
+    [ "Board_UARTPutSTR", "board__ngx__xplorer__18304330_8c.html#ga26211607542af1bb2a867d6641a8d4f3", null ],
+    [ "Buttons_GetStatus", "board__ngx__xplorer__18304330_8c.html#ga13cca90c46cb527f5cc7a1bfe1d0121a", null ],
+    [ "delay", "board__ngx__xplorer__18304330_8c.html#gade8146bdfd5c85e4994b1f5a13b9da46", null ],
+    [ "GPIO0_IRQHandler", "board__ngx__xplorer__18304330_8c.html#gaa32175f2e875afc79e5e2df8fe065593", null ],
+    [ "Joystick_GetStatus", "board__ngx__xplorer__18304330_8c.html#gadb514f11b0c7bfc1ca0c90accbb44ddb", null ],
+    [ "Serial_CreateStream", "board__ngx__xplorer__18304330_8c.html#ga81a9695514c59fdcbbc7f9ea89db36ad", null ],
+    [ "SystemCoreClockUpdate", "board__ngx__xplorer__18304330_8c.html#gae0c36a9591fe6e9c45ecb21a794f0f0f", null ],
+    [ "SystemCoreClock", "board__ngx__xplorer__18304330_8c.html#gaa3cd3e43291e81e795d642b79b6088e6", null ]
+];

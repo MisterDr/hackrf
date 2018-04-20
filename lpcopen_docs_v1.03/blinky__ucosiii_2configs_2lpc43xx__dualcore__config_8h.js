@@ -1,0 +1,26 @@
+var blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h =
+[
+    [ "EXAMPLE_BLINKY", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a594e50e73df4ca03d7dda84f16889a28", null ],
+    [ "HEAP_SIZE", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a1b45302695680930829cac31d65e41e1", null ],
+    [ "IFLASH_BASE_ADDR", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a1773a1285c44e28473ccacf7863f0522", null ],
+    [ "IRQ_PRIO_ETHERNET", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a381ee7dc118497c74a31b148749c0052", null ],
+    [ "IRQ_PRIO_IPC", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#af6d78cac175eb4e7544fba85781209da", null ],
+    [ "IRQ_PRIO_USBDEV", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a56e0485b0e91c726618e06ba6e1e8b69", null ],
+    [ "M0_IMAGE_OFFSET", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a80bb1c1a08a155d947631007b6becf4b", null ],
+    [ "OS_UCOS_III", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a338975c8c588ad2464a9b8f38c3b7438", null ],
+    [ "RAMDISK_LOCATION", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a34e2b7fe3c735d64575dccedc7b6d944", null ],
+    [ "RAMDISK_SIZE", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a808d63a452bf2175c3c7888ae9adaa3a", null ],
+    [ "SHARED_MEM_M0", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a802f50f28b6bfcaea1c58679c9a55737", null ],
+    [ "SHARED_MEM_M4", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a831d2cbe7596393c4e883a51f6e59e31", null ],
+    [ "SPIFI_BASE_ADDR", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a23b681d9f58933a59dc3bc4ed3d35e8e", null ],
+    [ "STACK_SIZE", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a6423a880df59733d2d9b509c7718d3a9", null ],
+    [ "TASK_PRIO_BLINKY_EVENT", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a47bec4607cd26feab713313173857409", null ],
+    [ "TASK_PRIO_ETHERNET", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#af0b0edf163455c53c1e58230e263599f", null ],
+    [ "TASK_PRIO_IPC_DISPATCH", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#ad093655f4d7a00361cf1bd272f722743", null ],
+    [ "TASK_PRIO_LCD", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a2e65a1b13fc4c6314b9c36740c96a578", null ],
+    [ "TASK_PRIO_LWIP_THREAD", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a508a4bf293d4ed72f97ece8ec302449c", null ],
+    [ "TASK_PRIO_TOUCHSCREEN", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#ae571a2293f9d6b551b4c8409eec8ba15", null ],
+    [ "TASK_PRIO_USBDEVICE", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a6fed234a2debd9e1244a0396092fe0f3", null ],
+    [ "UCOS_MIN_STACK_SZ", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#a67f4d6b5fe93750e87f4719763a6dd43", null ],
+    [ "XFLASH_BASE_ADDR", "blinky__ucosiii_2configs_2lpc43xx__dualcore__config_8h.html#aa075a4d22b00bf43d399514b775680ed", null ]
+];

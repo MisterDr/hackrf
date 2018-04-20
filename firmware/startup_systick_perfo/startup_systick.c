@@ -140,6 +140,18 @@ extern uint32_t test_nb_instruction_per_sec_1000_nop_asm();
 
 #define LED1_TOGGLE()	(gpio_toggle(PORT_LED1_3, (PIN_LED1)))
 
+#define LED2_TOGGLE()	(gpio_toggle(PORT_LED1_3, (PIN_LED3)))
+
+
+void kita()
+{
+	gpio_set(PORT_LED1_3, (PIN_LED1)); /* LED1 on */
+	gpio_set(PORT_LED1_3, (PIN_LED2)); /* LED2 on */
+	gpio_set(PORT_LED1_3, (PIN_LED3)); /* LED3 on */
+	sys_tick_wait_time_ms(250);
+}
+
+
 int main(void)
 {
 	pin_setup();
@@ -154,10 +166,14 @@ int main(void)
 
 	gpio_clear(PORT_LED1_3, (PIN_LED1)); /* LED1 off */
 
+
 	/* Test number of instruction per second (MIPS) slow blink ON 1s, OFF 1s */
 LED1_TOGGLE();
 	nb_inst_per_sec[0] = test_nb_instruction_per_sec_100_nop_asm();
-LED1_TOGGLE();
+
+	kita();
+
+	LED1_TOGGLE();
 	nb_inst_per_sec[1]= test_nb_instruction_per_sec_105_nop_asm();
 LED1_TOGGLE();
 	nb_inst_per_sec[2]= test_nb_instruction_per_sec_110_nop_asm();

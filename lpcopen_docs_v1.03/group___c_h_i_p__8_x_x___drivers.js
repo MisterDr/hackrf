@@ -1,0 +1,28 @@
+var group___c_h_i_p__8_x_x___drivers =
+[
+    [ "CHIP: LPC8XX Chip layer required IP layer drivers", "group___i_p___l_p_c8_x_x___f_i_l_e_s.html", null ],
+    [ "CHIP: LPC8xx ACMP Driver", "group___a_c_m_p__8_x_x.html", "group___a_c_m_p__8_x_x" ],
+    [ "CHIP: LPC8xx CMSIS include file", "group___c_m_s_i_s__8_x_x___a_l_l.html", null ],
+    [ "CHIP: LPC8xx CRC Driver", "group___c_r_c__8_x_x.html", "group___c_r_c__8_x_x" ],
+    [ "CHIP: LPC8xx Chip driver build time options", "group___c_h_i_p__8_x_x___d_r_i_v_e_r___o_p_t_i_o_n_s.html", "group___c_h_i_p__8_x_x___d_r_i_v_e_r___o_p_t_i_o_n_s" ],
+    [ "CHIP: LPC8xx Clock Driver", "group___c_l_o_c_k__8_x_x.html", "group___c_l_o_c_k__8_x_x" ],
+    [ "CHIP: LPC8xx FLASH Memory Controller driver", "group___f_m_c__8_x_x.html", "group___f_m_c__8_x_x" ],
+    [ "CHIP: LPC8xx GPIO Driver", "group___g_p_i_o__8_x_x.html", "group___g_p_i_o__8_x_x" ],
+    [ "CHIP: LPC8xx I2C ROM API declarations and functions", "group___c_h_i_p___i2_c_r_o_m__8_x_x.html", "group___c_h_i_p___i2_c_r_o_m__8_x_x" ],
+    [ "CHIP: LPC8xx I2C driver", "group___c_h_i_p___i2_c__8_x_x.html", "group___c_h_i_p___i2_c__8_x_x" ],
+    [ "CHIP: LPC8xx IOCON register block and driver", "group___i_o_c_o_n__8_x_x.html", "group___i_o_c_o_n__8_x_x" ],
+    [ "CHIP: LPC8xx MRT register block and driver", "group___m_r_t__8_x_x.html", "group___m_r_t__8_x_x" ],
+    [ "CHIP: LPC8xx PMU driver", "group___p_m_u__8_x_x.html", "group___p_m_u__8_x_x" ],
+    [ "CHIP: LPC8xx Peripheral addresses and register set declarations", "group___p_e_r_i_p_h__8_x_x___b_a_s_e.html", "group___p_e_r_i_p_h__8_x_x___b_a_s_e" ],
+    [ "CHIP: LPC8xx Pin Interrupt and Pattern Match driver", "group___p_i_n_i_n_t__8_x_x.html", "group___p_i_n_i_n_t__8_x_x" ],
+    [ "CHIP: LPC8xx Power ROM API declarations and functions", "group___p_w_r_d__8_x_x.html", "group___p_w_r_d__8_x_x" ],
+    [ "CHIP: LPC8xx ROM API declarations and functions", "group___r_o_m_a_p_i__8_x_x.html", "group___r_o_m_a_p_i__8_x_x" ],
+    [ "CHIP: LPC8xx SPI driver", "group___s_p_i__8_x_x.html", "group___s_p_i__8_x_x" ],
+    [ "CHIP: LPC8xx Self Wakeup Timer (WKT) driver", "group___w_k_t__8_x_x.html", "group___w_k_t__8_x_x" ],
+    [ "CHIP: LPC8xx State Configurable Timer (SCT) driver", "group___s_c_t__8_x_x.html", "group___s_c_t__8_x_x" ],
+    [ "CHIP: LPC8xx Switch Matrix Driver", "group___s_w_m__8_x_x.html", "group___s_w_m__8_x_x" ],
+    [ "CHIP: LPC8xx System and Control Driver", "group___s_y_s_c_t_l__8_x_x.html", "group___s_y_s_c_t_l__8_x_x" ],
+    [ "CHIP: LPC8xx UART Driver", "group___u_a_r_t__8_x_x.html", "group___u_a_r_t__8_x_x" ],
+    [ "CHIP: LPC8xx UART ROM Driver", "group___u_a_r_t_r_o_m__8_x_x.html", "group___u_a_r_t_r_o_m__8_x_x" ],
+    [ "CHIP: LPC8xx WWDT driver", "group___w_w_d_t__8_x_x.html", "group___w_w_d_t__8_x_x" ]
+];

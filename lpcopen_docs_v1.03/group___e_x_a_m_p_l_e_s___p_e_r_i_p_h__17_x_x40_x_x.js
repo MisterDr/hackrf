@@ -1,0 +1,25 @@
+var group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x =
+[
+    [ "LPC17xx/40xx ADC example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___a_d_c.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___a_d_c" ],
+    [ "LPC17xx/40xx CAN example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___c_a_n.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___c_a_n" ],
+    [ "LPC17xx/40xx Comparator example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___c_m_p.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___c_m_p" ],
+    [ "LPC17xx/40xx Cyclic Redundancy Check (CRC) generator example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___c_r_c.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___c_r_c" ],
+    [ "LPC17xx/40xx DAC example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___d_a_c.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___d_a_c" ],
+    [ "LPC17xx/40xx EEPROM example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_e_p_r_o_m.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_e_p_r_o_m" ],
+    [ "LPC17xx/40xx Ethernet example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t" ],
+    [ "LPC17xx/40xx Event Monitor/Recorder example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___r_t_c___e_v.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___r_t_c___e_v" ],
+    [ "LPC17xx/40xx External NAND Flash tests", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___n_a_n_d_f_l_a_s_h.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___n_a_n_d_f_l_a_s_h" ],
+    [ "LPC17xx/40xx External NOR Flash tests", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___n_o_r_f_l_a_s_h.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___n_o_r_f_l_a_s_h" ],
+    [ "LPC17xx/40xx I2C example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___i2_c.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___i2_c" ],
+    [ "LPC17xx/40xx I2S example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___i2_s.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___i2_s" ],
+    [ "LPC17xx/40xx LCD (colorbars and cursor) example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___l_c_d.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___l_c_d" ],
+    [ "LPC17xx/40xx Memory tests", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_m_e_m_t.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_m_e_m_t" ],
+    [ "LPC17xx/40xx RITimer example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___r_i_t.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___r_i_t" ],
+    [ "LPC17xx/40xx RTC example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___r_t_c.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___r_t_c" ],
+    [ "LPC17xx/40xx SDMMC example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_d_c.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_d_c" ],
+    [ "LPC17xx/40xx SPI example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_p_i.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_p_i" ],
+    [ "LPC17xx/40xx SSP example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_s_p.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___s_s_p" ],
+    [ "LPC17xx/40xx Simple Blinky example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___b_l_i_n_k_y.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___b_l_i_n_k_y" ],
+    [ "LPC17xx/40xx UART example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___u_a_r_t.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___u_a_r_t" ],
+    [ "LPC17xx/40xx Watchdog timer example", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___w_w_d_t.html", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___w_w_d_t" ]
+];

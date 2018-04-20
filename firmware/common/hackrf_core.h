@@ -350,6 +350,8 @@ typedef enum {
 
 void delay(uint32_t duration);
 
+void blink(uint32_t duration);
+
 void cpu_clock_init(void);
 void cpu_clock_pll1_low_speed(void);
 void cpu_clock_pll1_max_speed(void);

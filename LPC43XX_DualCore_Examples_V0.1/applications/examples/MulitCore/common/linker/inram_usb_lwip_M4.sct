@@ -1,0 +1,54 @@
+;-------------------------------------------------------------------------------------
+;   Keil scatter loading file
+;-------------------------------------------------------------------------------------
+
+; All code and data on the M4 core has a total size <= 256K. This includes
+; the embedded 32K (max) image for the M0 core
+FLASH 0x10000000 0x20000 {
+  ; Place the M4 code and data in the first 64K of IRAM. If the image is
+  ; larger than 64K, the code and/or data can be placed into additional
+  ; sections after the M0 image section.
+  ; Note the use of the PADVALUE attribute. ALthough not needed here for an
+  ; IRAM image, it's useful for images generated for FLASH and will zero-fill
+  ; unused regions (helpful for binary images).
+  ER_RO 0x10000000 PADVALUE 0x0 0x10000 {
+    startup_*.o (RESET, +FIRST)
+    *.o (+RO)
+    *.o (+RW, +ZI)
+  }
+
+  ; A 2nd execution region is mapped at offset 64K. The M0 image, which has
+  ; been linked for address 0x10010000, is placed here. This guarantees a
+  ; 64K aligned for the M0 image at the address it was linked at. The rest
+  ; of the M4 code and data can be placed before or after the M0 image.
+  ; Note the M0 image also has allocated as part of it's size it's RW and ZI
+  ; data regions (uncompressed), so the M4 code won't overlap with and M0
+  ; code or data.
+  ; Note that the image is padded to use the entire 8K in the generated
+  ; binary file. The padding also guarantees that any data placed after this
+  ; section will not overlap this section (ie, if this section is smaller
+  ; than 32K). This makes updating just the M0 image in FLASH easier as the
+  ; size is pre-determined.
+  ER_RO2 0x10010000 FIXED PADVALUE 0x0 0x10000 {
+    m0_image*.o (+RO,+RW)
+  }
+
+  ; Shared memory region for M0 and M4 core. The M4 core initializes this
+  ; region at run-time usually before the M0 core is running.
+  SHMEM 0x10080000 0x100 {
+	ipc_msg*.o (SHMEMM0, SHMEMM4)
+  }
+
+  ; Memory used by nxpUSBLib stack
+  USBMEM 0x10080100 0xF00 {
+	*.o (USBRAM_SECTION)
+  }
+
+  ; LWIP Buffers
+  ER_RW1 0x10081000 NOCOMPRESS 0x00010000 {
+   	memp.o (+RW, +ZI)
+	mem.o (+RW, +ZI)
+	dataram.o(+RO, +RW)
+	startup_*(HEAP)
+  }
+}

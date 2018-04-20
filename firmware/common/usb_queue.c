@@ -49,12 +49,30 @@ void usb_queue_init(
         uint32_t index = USB_ENDPOINT_INDEX(queue->endpoint->address);
         if (endpoint_queues[index] != NULL) while (1);
         endpoint_queues[index] = queue;
-
         usb_transfer_t* t = queue->free_transfers;
-        for (unsigned int i=0; i < queue->pool_size - 1; i++, t++) {
-                t->next = t+1;
-                t->queue = queue;
+
+
+
+        if (queue->pool_size == 0)
+        {
+                sblink(10000000);
+                sblink2(10000000);
+                sblink(10000000);
+                sblink2(10000000);
         }
+
+        //blink(1000000000);
+
+        for (unsigned int i=0; i < queue->pool_size - 1; i++, t++) {
+
+                sblink2(1000000);
+                //t->next = t+1;
+                //t->queue = queue;
+        }
+
+
+        //blink(1000000);
+
         t->next = NULL;
         t->queue = queue;
 }

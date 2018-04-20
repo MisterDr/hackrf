@@ -43,6 +43,37 @@ void delay(uint32_t duration)
 		__asm__("nop");
 }
 
+void sblink(uint32_t duration)
+{
+    /* blink LED1 and LED3 */
+	gpio_set(PORT_LED1_3, (PIN_LED1|PIN_LED3)); /* LEDs on */
+	delay(duration);
+	gpio_clear(PORT_LED1_3, (PIN_LED1|PIN_LED3)); /* LED off */
+	delay(duration);
+}
+
+
+void sblink2(uint32_t duration)
+{
+	/* blink LED1 and LED3 */
+	gpio_set(PORT_LED1_3, (PIN_LED2)); /* LEDs on */
+	delay(duration);
+	gpio_clear(PORT_LED1_3, (PIN_LED2)); /* LED off */
+	delay(duration);
+}
+
+
+void blink(uint32_t duration)
+{
+	/* blink LED1 and LED3 */
+	while (1)
+	{
+		sblink(duration);
+	}
+}
+
+
+
 /* GCD algo from wikipedia */
 /* http://en.wikipedia.org/wiki/Greatest_common_divisor */
 static uint32_t
@@ -258,21 +289,58 @@ Configure PLL1 to max speed (204MHz).
 Note: PLL1 clock is used by M4/M0 core, Peripheral, APB1. */ 
 void cpu_clock_init(void)
 {
+
 	/* use IRC as clock source for APB1 (including I2C0) */
 	CGU_BASE_APB1_CLK = CGU_BASE_APB1_CLK_CLK_SEL(CGU_SRC_IRC);
 
 	/* use IRC as clock source for APB3 */
 	CGU_BASE_APB3_CLK = CGU_BASE_APB3_CLK_CLK_SEL(CGU_SRC_IRC);
 
+	sblink2(5000000);
+
+	disable_rf_power();
+
+	sblink2(5000000);
+
+	enable_rf_power();
+
+	sblink2(5000000);
+
 	i2c0_init(15);
 
 	si5351c_disable_all_outputs();
-	si5351c_disable_oeb_pin_control();
-	si5351c_power_down_all_clocks();
+
+	delay((uint32_t)500);
+
+    si5351c_disable_oeb_pin_control();
+
+	delay((uint32_t)500);
+
+    si5351c_power_down_all_clocks();
+
+	delay((uint32_t)500);
+
 	si5351c_set_crystal_configuration();
-	si5351c_enable_xo_and_ms_fanout();
+
+	delay((uint32_t)500);
+
+    si5351c_enable_xo_and_ms_fanout();
+
+	delay((uint32_t)500);
+
 	si5351c_configure_pll_sources();
-	si5351c_configure_pll_multisynth();
+
+	delay((uint32_t)500);
+
+	si5351c_set_interrupt_mask();
+
+	delay((uint32_t)500);
+
+	si5351c_configure_pll_multisynth();// CULPRIT  // Bypass maxim
+
+
+	//blink(50000000);
+
 
 #ifdef JELLYBEAN
 	/*
@@ -288,7 +356,7 @@ void cpu_clock_init(void)
 	 */
 
 	/* MS0/CLK0 is the source for the MAX2837 clock input. */
-	si5351c_configure_multisynth(0, 2048, 0, 1, 0); /* 40MHz */
+	//si5351c_configure_multisynth(0, 2048, 0, 1, 0); /* 40MHz */  //CULPRIT
 
 	/* MS4/CLK4 is the source for the LPC43xx microcontroller. */
 	si5351c_configure_multisynth(4, 8021, 0, 3, 0); /* 12MHz */
@@ -313,26 +381,32 @@ void cpu_clock_init(void)
 	/* MS3/CLK3 is the source for the external clock output. */
 	si5351c_configure_multisynth(3, 80*128-512, 0, 1, 0); /* 800/80 = 10MHz */
 
+	//blink(5000000);
+
 	/* MS4/CLK4 is the source for the RFFC5071 mixer. */
 	si5351c_configure_multisynth(4, 16*128-512, 0, 1, 0); /* 800/16 = 50MHz */
  
  	/* MS5/CLK5 is the source for the MAX2837 clock input. */
-	si5351c_configure_multisynth(5, 20*128-512, 0, 1, 0); /* 800/20 = 40MHz */
+	//si5351c_configure_multisynth(5, 20*128-512, 0, 1, 0); /* 800/20 = 40MHz */  //CULPRIT
 
 	/* MS6/CLK6 is unused. */
 	/* MS7/CLK7 is the source for the LPC43xx microcontroller. */
 	uint8_t ms7data[] = { 90, 255, 20, 0 };
 	si5351c_write(ms7data, sizeof(ms7data));
+
+
 #endif
 
 	/* Set to 10 MHz, the common rate between Jellybean and Jawbreaker. */
 	sample_rate_set(10000000);
 
 	si5351c_set_clock_source(PLL_SOURCE_XTAL);
+
 	// soft reset
 	uint8_t resetdata[] = { 177, 0xac };
 	si5351c_write(resetdata, sizeof(resetdata));
 	si5351c_enable_clock_outputs();
+
 
 	//FIXME disable I2C
 	/* Kick I2C0 down to 400kHz when we switch over to APB1 clock = 204MHz */

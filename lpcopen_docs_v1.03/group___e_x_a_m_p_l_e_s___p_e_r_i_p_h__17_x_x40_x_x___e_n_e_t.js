@@ -1,0 +1,28 @@
+var group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t =
+[
+    [ "ENET_NUM_RX_DESC", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gabda9ed8c52055e6c3978952d0972e10e", null ],
+    [ "ENET_NUM_TX_DESC", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga073afcda405799884e13a51da3497cdc", null ],
+    [ "ENET_RX_BUF", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga462d6830d73e0f92daa701e48f12ac2b", null ],
+    [ "ENET_RX_BUF_BASE", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga073e02d4c40020d5fae8bb50a932854c", null ],
+    [ "ENET_RX_DESC_BASE", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gab8529e05eaa2786674024155b930fccb", null ],
+    [ "ENET_RX_STAT_BASE", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gaa953e9f95ed6a104bb03e002fcb1ce5a", null ],
+    [ "ENET_TX_BUF", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga3e187187f13c2033d00d621c5ef944ef", null ],
+    [ "ENET_TX_BUF_BASE", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga0fc0d9b93c5333f5891afb04740fa182", null ],
+    [ "ENET_TX_DESC_BASE", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga4a2f6ef1947bd40f64d727206366b16f", null ],
+    [ "ENET_TX_STAT_BASE", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga5711d884ab15548850265aaf4098bfb3", null ],
+    [ "ENET_IsTXFinish", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga01235e55778663ea5193b38e622f5795", null ],
+    [ "ENET_RXBuffClaim", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga770926f60d8149abaff50272ca6185f2", null ],
+    [ "ENET_RXGet", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga6dcc58f427821276cb14582673fcc278", null ],
+    [ "ENET_TXBuffGet", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga88d6c33d56059351d81566bc651ee260", null ],
+    [ "ENET_TXQueue", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga6dff761d401e7184d5c4f1383c291007", null ],
+    [ "ETH_IRQHandler", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gabc33835371e2d879b7a3ef000ccc9eef", null ],
+    [ "InitDescriptors", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gaf42f70578107f722c34690b21810cbd5", null ],
+    [ "localMsDelay", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga578def8d67417c55c8e926440d8fe4c5", null ],
+    [ "main", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga840291bc02cba5474a4cb46a9b9566fe", null ],
+    [ "pRXDescs", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gac27c23d9f685a343ea262ad3f2f06547", null ],
+    [ "pRXStats", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga7cf2f6de569eb21deded4ebc63bc6963", null ],
+    [ "pTXDescs", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gaf9acb23775cdb15cc4ccc814116c10ba", null ],
+    [ "pTXStats", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga5021a1f4322302218487de0e55b6ac99", null ],
+    [ "rxConsumeIdx", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#gae7e8b660445df43b5fd9b74c792ba1e1", null ],
+    [ "txProduceIdx", "group___e_x_a_m_p_l_e_s___p_e_r_i_p_h__17_x_x40_x_x___e_n_e_t.html#ga2c25022e68fe7330247c2a9f9cdc8d81", null ]
+];

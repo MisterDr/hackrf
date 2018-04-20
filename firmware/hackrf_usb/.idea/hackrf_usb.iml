@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../common/cpld_jtag.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/cpld_jtag.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/fault_handler.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/fault_handler.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/hackrf_core.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/hackrf_core.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/m0_sleep.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/m0_sleep.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/max2837.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/max2837.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/max5864.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/max5864.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/rf_path.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/rf_path.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/rffc5071.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/rffc5071.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/rom_iap.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/rom_iap.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/sgpio.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/sgpio.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/si5351c.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/si5351c.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/streaming.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/streaming.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/tuning.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/tuning.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/usb.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/usb.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/usb_queue.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/usb_queue.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/usb_request.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/usb_request.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/usb_standard_request.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/usb_standard_request.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/w25q80bv.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/w25q80bv.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/xapp058/lenval.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/xapp058/lenval.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/xapp058/micro.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/xapp058/micro.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/xapp058/ports.c">
+      <sourceFolder url="file://$MODULE_DIR$/../common/xapp058/ports.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

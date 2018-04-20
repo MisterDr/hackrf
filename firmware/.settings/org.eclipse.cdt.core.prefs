@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.crt.advproject.toolchain.exe.debug.2118802904/PATH/delimiter=\:
+environment/project/com.crt.advproject.toolchain.exe.debug.2118802904/PATH/operation=replace
+environment/project/com.crt.advproject.toolchain.exe.debug.2118802904/PATH/value=/Volumes/MAC_OSX/Applications/lpcxpresso_7.7.2_379/lpcxpresso/bin\:/Volumes/MAC_OSX/Applications/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin\:/bin\:/usr/bin\:/usr/sbin\:/sbin\:/usr/local/bin
+environment/project/com.crt.advproject.toolchain.exe.debug.2118802904/append=true
+environment/project/com.crt.advproject.toolchain.exe.debug.2118802904/appendContributed=true

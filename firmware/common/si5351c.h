@@ -64,6 +64,7 @@ enum pll_sources {
 
 void si5351c_disable_all_outputs();
 void si5351c_disable_oeb_pin_control();
+void si5351c_set_interrupt_mask();
 void si5351c_power_down_all_clocks();
 void si5351c_set_crystal_configuration();
 void si5351c_enable_xo_and_ms_fanout();

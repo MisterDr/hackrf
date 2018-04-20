@@ -22,6 +22,8 @@
 
 #include <stdint.h>
 
+
+
 #include "fault_handler.h"
 
 typedef struct
@@ -47,11 +49,15 @@ void hard_fault_handler(void) {
 
 volatile hard_fault_stack_t* hard_fault_stack_pt;
 
-__attribute__((used)) void hard_fault_handler_c(uint32_t* args) 
+__attribute__((used)) void hard_fault_handler_c(uint32_t* args)
 {
+
+//	pin_setup();
+//	blink(1000000);
+
 	/* hard_fault_stack_pt contains registers saved before the hard fault */
 	hard_fault_stack_pt = (hard_fault_stack_t*)args;
-	
+
 	// args[0-7]: r0, r1, r2, r3, r12, lr, pc, psr
 	// Other interesting registers to examine:
 	//	CFSR: Configurable Fault Status Register
@@ -60,9 +66,9 @@ __attribute__((used)) void hard_fault_handler_c(uint32_t* args)
 	//	AFSR: Auxiliary Fault Status Register
 	//	MMAR: MemManage Fault Address Register
 	//	BFAR: Bus Fault Address Register
-	
+
 	/*
-	if( SCB->HFSR & SCB_HFSR_FORCED ) {	
+	if( SCB->HFSR & SCB_HFSR_FORCED ) {
 		if( SCB->CFSR & SCB_CFSR_BFSR_BFARVALID ) {
 			SCB->BFAR;
 			if( SCB->CFSR & CSCB_CFSR_BFSR_PRECISERR ) {

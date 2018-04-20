@@ -25,10 +25,12 @@
 #include "hackrf_core.h"
 #include "w25q80bv.h"
 
+
 int main(void)
 {
-	int i;
-	uint8_t buf[515];
+	uint8_t i;
+
+	uint8_t buf[512];
 
 	pin_setup();
 
@@ -36,23 +38,30 @@ int main(void)
 
 	cpu_clock_init();
 
+	for (i = 0; i < 255; i++) {
+		buf[i] = i;
+	}
+
+
+
 	/* program test data to SPI flash */
-	for (i = 0; i < 515; i++)
-		buf[i] = (i * 3) & 0xFF;
+	//for (i = 0; i < 515; i++)
+	//	buf[i] = (i * 3) & 0xFF;
+
+
 	w25q80bv_setup();
 	w25q80bv_chip_erase();
-	w25q80bv_program(790, 515, &buf[0]);
 
-	/* blink LED1 and LED3 */
-	while (1) 
-	{
-		gpio_set(PORT_LED1_3, (PIN_LED1|PIN_LED3)); /* LEDs on */
-		for (i = 0; i < 8000000; i++)	/* Wait a bit. */
-			__asm__("nop");
-		gpio_clear(PORT_LED1_3, (PIN_LED1|PIN_LED3)); /* LED off */
-		for (i = 0; i < 8000000; i++)	/* Wait a bit. */
-			__asm__("nop");
-	}
+
+
+	w25q80bv_program(790, 255, &buf[0]);
+
+	blink(200000);
+
+
+
+
+
 
 	return 0;
 }

@@ -1,0 +1,37 @@
+var _endpoint_8h =
+[
+    [ "ENDPOINT_BANK_DOUBLE", "_endpoint_8h.html#ga417e96e8278a9c41e846fff106ce5791", null ],
+    [ "ENDPOINT_BANK_SINGLE", "_endpoint_8h.html#gae4bc67200452560b253e3f01acae9373", null ],
+    [ "ENDPOINT_CONTROLEP", "_endpoint_8h.html#ga5735655e855a6da7ee2e48084c10d9d6", null ],
+    [ "ENDPOINT_CONTROLEP_DEFAULT_SIZE", "_endpoint_8h.html#gaebe9cfe97e9292e5e8cfba9885bbd901", null ],
+    [ "ENDPOINT_EPNUM_MASK", "_endpoint_8h.html#ga6ee88e6fd992e2a064923871980b493d", null ],
+    [ "ENDPOINT_MAX_SIZE", "_endpoint_8h.html#gad9e1bb9ac6153e39301490b29e77e93a", null ],
+    [ "ENDPOINT_TOTAL_ENDPOINTS", "_endpoint_8h.html#ga3c9bdc887ac46d0a12c4b2ca10907c45", null ],
+    [ "ENDPOINT_TOTAL_ENDPOINTS0", "_endpoint_8h.html#ga659f5bb147e9724bb7ec35ffc46ccfa7", null ],
+    [ "ENDPOINT_TOTAL_ENDPOINTS1", "_endpoint_8h.html#gab30211b71218e5da15b7db8ae6029563", null ],
+    [ "Endpoint_WaitUntilReady_ErrorCodes_t", "_endpoint_8h.html#gaa42b7eb8d1be3afadb97097bf2605740", [
+      [ "ENDPOINT_READYWAIT_NoError", "_endpoint_8h.html#ggaa42b7eb8d1be3afadb97097bf2605740a5bd129a3bb182ecdcfe16549e175308a", null ],
+      [ "ENDPOINT_READYWAIT_EndpointStalled", "_endpoint_8h.html#ggaa42b7eb8d1be3afadb97097bf2605740ac395cfec6ba73cd76fd016e746b7dc74", null ],
+      [ "ENDPOINT_READYWAIT_DeviceDisconnected", "_endpoint_8h.html#ggaa42b7eb8d1be3afadb97097bf2605740a39bcc8c146680a1666f2eba6dccc0152", null ],
+      [ "ENDPOINT_READYWAIT_BusSuspended", "_endpoint_8h.html#ggaa42b7eb8d1be3afadb97097bf2605740a46004ca0aeabab26bf7fa723ab27999f", null ],
+      [ "ENDPOINT_READYWAIT_Timeout", "_endpoint_8h.html#ggaa42b7eb8d1be3afadb97097bf2605740aa6da793dddcd7512d2e92599052d04b5", null ]
+    ] ],
+    [ "Endpoint_Discard_16", "_endpoint_8h.html#ga9f95822c63cb6b0b387da48ac810ab61", null ],
+    [ "Endpoint_Discard_32", "_endpoint_8h.html#ga763eefa05eed494c33ec63271db52b3d", null ],
+    [ "Endpoint_Discard_8", "_endpoint_8h.html#gab3693395f9cbfcdc11cfedd86adf721f", null ],
+    [ "Endpoint_GetCurrentEndpoint", "_endpoint_8h.html#gaf50ed3d51e3ed1d5aa018ca44f1cf7c2", null ],
+    [ "Endpoint_GetEndpointDirection", "_endpoint_8h.html#ga3a7dcc21ccf26312a14e9e724abe38fe", null ],
+    [ "Endpoint_GetSetupPackage", "_endpoint_8h.html#gab71f2b48bc7b95d8ef0c8d00b5f5c5c8", null ],
+    [ "Endpoint_IsReadWriteAllowed", "_endpoint_8h.html#ga17f6c1eb99c13e723cf168f40826a6e3", null ],
+    [ "Endpoint_Read_16_BE", "_endpoint_8h.html#ga2b5e56790b91a3f613983c7e608dcf02", null ],
+    [ "Endpoint_Read_16_LE", "_endpoint_8h.html#gacbf6acfe7137cf7f17491264cc25dbac", null ],
+    [ "Endpoint_Read_32_BE", "_endpoint_8h.html#ga17df20eacfaaf85c6935a7b7767aacfb", null ],
+    [ "Endpoint_Read_32_LE", "_endpoint_8h.html#ga84b32588e9d0260079480f7f8095ce16", null ],
+    [ "Endpoint_Read_8", "_endpoint_8h.html#gadb936536533611f7a5df7930bb71b935", null ],
+    [ "Endpoint_SelectEndpoint", "_endpoint_8h.html#ga104b4f9894a3abb7e0043adcfcb497b7", null ],
+    [ "Endpoint_Write_16_BE", "_endpoint_8h.html#gadea560328a9fa7d6f502de8b7e95a1a8", null ],
+    [ "Endpoint_Write_16_LE", "_endpoint_8h.html#ga4353136fae57875c1cfe9dcc64d4f383", null ],
+    [ "Endpoint_Write_32_BE", "_endpoint_8h.html#ga2212c40b619af1491571e6f1091628e3", null ],
+    [ "Endpoint_Write_32_LE", "_endpoint_8h.html#gae08d83ca10054d5a2a9d18f9bb6c292b", null ],
+    [ "Endpoint_Write_8", "_endpoint_8h.html#ga442e0512893cd22d07bc7f9f82649e77", null ]
+];

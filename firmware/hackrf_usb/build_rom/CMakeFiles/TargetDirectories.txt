@@ -1,0 +1,6 @@
+/Volumes/mrdr/research/hackrf/firmware/hackrf_usb/build_rom/CMakeFiles/hackrf_usb.bin.dir
+/Volumes/mrdr/research/hackrf/firmware/hackrf_usb/build_rom/CMakeFiles/hackrf_usb.dfu.dir
+/Volumes/mrdr/research/hackrf/firmware/hackrf_usb/build_rom/CMakeFiles/hackrf_usb_m0.elf.dir
+/Volumes/mrdr/research/hackrf/firmware/hackrf_usb/build_rom/CMakeFiles/hackrf_usb.elf.dir
+/Volumes/mrdr/research/hackrf/firmware/hackrf_usb/build_rom/CMakeFiles/hackrf_usb-program.dir
+/Volumes/mrdr/research/hackrf/firmware/hackrf_usb/build_rom/CMakeFiles/hackrf_usb_m0.bin.dir

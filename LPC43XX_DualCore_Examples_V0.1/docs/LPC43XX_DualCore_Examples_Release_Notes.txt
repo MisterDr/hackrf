@@ -1,0 +1,39 @@
+LPC43XX Dual Core Examples:
+===========================
+This is the LPC43XX Dual core examples Release 0.1. 
+This release includes the following library components: 
+ a. BSP - Support for HITEX & MCB4300 boards 
+ b. CDL - LPC43XX CMSIS V2.00 & LPC43XXLib 
+ c. FreeRTOS - FreeRTOS 7.1.0 LPC43XX Cortex-M4 & Cortex-M0 ports & kernel files
+ d. IPComm - IPC Communication library implemented by NXP
+ e. nxpUSBLib - nxpUSBLIB 0.95 library 
+
+Notes:
+======
+ a. The uCOS-III configuration support not available in this release
+ b. The LWIP & emWin library support are not available in this release   
+
+The following LPC43XX Dual core examples are included in this release:
+  a. USB_KBD_Host - This example demonstrates the USB Key Board host functionality    
+  b. USB_MS_Device - This example demonstrates the USB Mass stoarge device functionality
+
+Using the package:
+=================
+The following examples are tested on MCB4300 board from internal Flash, following configurations are tested:
+ a. USB_KBD_Host - Please refer to \applications\examples\MultiCore\USB_KBD_Host\README_KBDHOST_BLINKY.txt file
+ d. USB_MS_Device - Please refer to \applications\examples\MultiCore\USB_MS_Device\README_MSCDEV_BLINKY.txt file
+The build procedure for the examples is exaplined in the above files 
+           
+Known issues in this release:
+=============================
+1. USB examples are not working from external NOR flash due to timing issues
+
+Release history:
+================
+
+Version 0.1: 06/09/2012
+=======================
+LPC43XX USB Examples released on MCB4300 board
+ a. Stand-alone configurations 
+ b. FreeRTOS configurations 
+

@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+gdb.client.commands=set mem inaccessible-by-default off
+gdb.client.executable=${cross_prefix}gdb${cross_suffix}
+gdb.client.other=
+gdb.qemu.doDebugInRam=false
+gdb.qemu.doInitialReset=false
+gdb.qemu.doPreRunReset=true
+gdb.qemu.enableSemihosting=true
+gdb.qemu.init.other=
+gdb.qemu.machineName=?
+gdb.qemu.preRun.other=
+gdb.server.doStart=true
+gdb.server.executable=${qemu_path}/${qemu_executable}
+gdb.server.other=
